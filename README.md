@@ -15,7 +15,7 @@ Requires Python 3.9+ (Tkinter ships with Python on Windows and macOS; on Linux y
 
 ```bash
 git clone https://github.com/hassanayoub409/adSurance-predictions.git
-cd <adSurance-predictions>
+cd adSurance-predictions
 pip install -r requirements.txt
 python app.py
 ```
@@ -29,7 +29,7 @@ data/           # insurance.csv, ad_click_dataset.csv
 notebooks/      # Original exploratory notebooks (EDA, plots, evaluation)
 ```
 
-## What I learned / notes
+## Notes
 
 - Both models use scikit-learn `Pipeline`s, so scaling and feature expansion happen automatically at prediction time.
 - **Medical cost:** adding polynomial features lifted R² from ~0.78 (plain linear) to ~0.87, since smoking and BMI interact strongly.
