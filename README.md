@@ -1,4 +1,4 @@
-# ML Predictor — Desktop App
+# Ad Click and Insurance Charges Predictor
 
 A small desktop app (Python + Tkinter) that bundles two beginner machine learning projects I built with scikit-learn:
 
